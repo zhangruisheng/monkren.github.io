@@ -1,8 +1,11 @@
 /*字体引用*/
-@import url("../webfonts/coltrane_regular_demo/stylesheet.css");
+@import url("webfonts/coltrane_regular_demo/stylesheet.css");
 @import "../sass/utilities/_all.css";
 @import "../sass/grid/columns.css";
+@import "../sass/grid/tiles.css";
 @import "../sass/helpers/spacing.css";
+@import "../sass/layout/section.css";
+@import "../sass/elements/tag.css";
 
 /* 移动端*/
 @media screen and (max-width:900px) {
@@ -1550,6 +1553,37 @@
     }
 
 
+    .about-me {
+    
+        float: left;
+    }
+
+    .about-me-img {
+ 
+        float: left;
+        /* width: 600px;
+        height: 900px; */
+        transform: rotate(0deg);
+        flex-shrink: 0;
+        /* margin-bottom: 140px;
+        margin-left: 100px; */
+    }
+
+    .about-xxtext {
+        float: left;
+        color: (--color-00);
+        font-family: "Futura LT Medium";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80%;
+        /* 200px */
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
 
 
     .attitude {
@@ -1744,7 +1778,7 @@
         width: 100%;
         height: auto;
         padding: 8px 0;
-        border-top: 0.5px solid;
+        /* border-top: 0.5px solid; */
         margin-top: 30px;
         /*        background: var(--color-oa);*/
     }

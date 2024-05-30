@@ -18,8 +18,8 @@ $(function () {
 });
 
 $(function () {
-    var light = "#fff";
     var dark = "#000";
+    var light = "#fff";
     var oadark = "#0A0A0A";
     var oalight = "#fafafa";
     var d5 = "rgba(0, 0, 0, .25)";
@@ -32,8 +32,9 @@ $(function () {
         document.documentElement.style.setProperty('--color-o5', d5);
         console.log('夜间模式开启');
     } else {
-        document.documentElement.style.setProperty('--color-ff', light);
+       
         document.documentElement.style.setProperty('--color-00', dark);
+        document.documentElement.style.setProperty('--color-ff', light);
         document.documentElement.style.setProperty('--color-oa', oalight);
         document.documentElement.style.setProperty('--color-o5', l5);
         console.log('夜间模式关闭');
