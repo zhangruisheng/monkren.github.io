@@ -258,7 +258,7 @@
     
     **********************/
     .nav-all {
-        position: relative;
+        position: fixed;
         float: left;
         margin-top: 0px;
         width: 100%;

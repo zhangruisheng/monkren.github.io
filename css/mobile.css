@@ -1,11 +1,12 @@
 /*字体引用*/
 @import url("webfonts/coltrane_regular_demo/stylesheet.css");
-@import "../sass/utilities/_all.css";
+/* @import "../sass/utilities/_all.css";
 @import "../sass/grid/columns.css";
 @import "../sass/grid/tiles.css";
 @import "../sass/helpers/spacing.css";
 @import "../sass/layout/section.css";
-@import "../sass/elements/tag.css";
+@import "../sass/elements/tag.css"; */
+/* @import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"; */
 
 /* 移动端*/
 @media screen and (max-width:900px) {
@@ -152,16 +153,16 @@
 
         margin-top: 8px;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 10px;
         /* font-family: "coltrane regular demo"; */
         width: auto;
 
     }
 
     h6 {
-        margin-top: 6px;
-        margin-bottom: 12px;
+        margin-top: 3px;
+        margin-bottom: 3px;
         width: 100%;
         font-weight: 400;
         font-size: 12px;
@@ -226,18 +227,7 @@
         background: var(--color-ff);
     }
 
-    .container {
-        position: relative;
-        overflow: hidden;
-        margin: 0;
-        padding: 70px 0 0 0;
-        width: 100%;
-        height: auto;
-        margin-left: 0%;
-
-
-
-    }
+  
 
     .monknew {
         position: relative;
@@ -508,25 +498,8 @@
         text-align: left;
     }
 
-    .home-aigc {
-        width: 94%;
-        margin-left: 3%;
-        height: auto;
-        overflow: hidden;
-        margin-bottom: 100px;
-        text-align: left;
-    }
 
-    .home-100-t180 {
 
-        position: relative;
-        float: left;
-        width: 94%;
-        left: 3%;
-        margin-top: 8px;
-        margin-bottom: 20px;
-
-    }
 
     .home-m-94 {
         position: relative;
@@ -546,14 +519,7 @@
 
     }
 
-    .home-85 {
-
-        position: relative;
-        float: left;
-        width: 100%;
-        left: 0%;
-
-    }
+   
 
     .old3 {
         position: relative;
@@ -566,7 +532,7 @@
 
     .page {
         position: relative;
-        width: 103%;
+        width: 100%;
         background: var(--color-ff);
         margin-left: 0%;
     }
@@ -885,18 +851,7 @@
         transition-duration: 0.5s;
     }
 
-    .work-img {
-        /*
-        display: block;
-        width: 100%;
-        height: auto;
-*/
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: auto;
-        /*        border-radius: 8px;*/
-    }
+
 
     .work-img-1 {
         position: absolute;
@@ -998,10 +953,12 @@
 
     .applogo {
         position: relative;
-        width: 56px;
-        height: 56px;
+        width: 30px;
+        height: 30px;
         float: left;
         text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .appbox h5 {
@@ -1015,8 +972,9 @@
         position: relative;
         float: left;
         margin-left: 12px;
-        margin-bottom: 24px;
-
+        margin-bottom: 0px;
+height: 50px;
+padding-top: 5px;
     }
 
     .tag-new {
@@ -1133,8 +1091,8 @@
     .linkmember-designer {
         position: relative;
         overflow: hidden;
-        margin: 0 2% 12px 0;
-        width: 48%;
+        /* margin: 0 2% 12px 0; */
+        width: 100%;
         /* max-height: 280px; */
         border-radius: 4px;
         background-color: var(--color-oa);
@@ -1142,7 +1100,8 @@
         text-overflow: ellipsis;
         font-size: 18px;
         transition: .5s;
-        min-height: 200px;
+        min-height: 240px;
+        height: 100%;
     }
 
 
@@ -1534,14 +1493,7 @@
 
     }
 
-    .about-t {
-        position: relative;
-        float: left;
-        width: 100%;
-        padding: 0px;
-        margin-bottom: 16px;
-        text-align: left;
-    }
+
 
 
     .about-tt {
@@ -1581,6 +1533,7 @@
         text-transform: uppercase;
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 100%;
 
     }
 
@@ -2522,19 +2475,9 @@
         margin: 0;
     } */
 
-    .home-works {
-        position: relative;
-        float: left;
-        width: 94%;
-    }
+  
 
-    .w100 {
-        position: relative;
-        float: left;
-        width: 100%;
-        min-width: 640px;
-        margin: 0;
-    }
+  
 
     /* img */
     .dazzle-imgs {
