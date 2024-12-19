@@ -120,114 +120,7 @@
         overflow: visible;
     }
 
-    h1xl {
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-size: 80px;
-        /* font-family: "coltrane regular demo"; */
-        line-height: 80px;
-    }
-
-    h1 {
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-size: 62px;
-        /* font-size: 22px; */
-        /* font-family: "coltrane regular demo"; */
-        line-height: 62px;
-    }
-
-    h2 {
-        font-weight: 400;
-        font-size: 44px;
-        margin-bottom: 12px;
-        /* font-family: "coltrane regular demo"; */
-        line-height: 48px;
-        /* float: left; */
-    }
-
-    h3 {
-        margin-bottom: 12px;
-        letter-spacing: 1px;
-        font-weight: 400;
-        /* font-family: "coltrane regular demo"; */
-        font-size: 28px;
-        line-height: 28px;
-        /* float: left; */
-        margin-right: 12px;
-    }
-
-    h4 {
-        letter-spacing: 0.5px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        /* font-family: "coltrane regular demo"; */
-    }
-
-    h5 {
-        margin-bottom: 8px;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 20px;
-        /* font-family: "coltrane regular demo"; */
-        /* float: left; */
-    }
-
-    h6 {
-        margin-bottom: 6px;
-        /* margin-bottom: 12px; */
-        width: 100%;
-        font-weight: 400;
-        font-size: 12px;
-        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI",
-            "Microsoft Yahei", "Source Han Sans CN", sans-serif;
-        opacity: 0.6;
-    }
-
-    .o3 {
-        opacity: 0.3;
-    }
-
-    .o5 {
-        opacity: 0.5;
-    }
-
-    .o7 {
-        opacity: 0.7;
-    }
-
-    p {
-        position: relative;
-        margin: 4px 0;
-        letter-spacing: 0.4px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 150%;
-        margin-bottom: 10px;
-        /* font-family: "logo"; */
-
-    }
-
-    span {
-        margin-right: 10px;
-    }
-
-    ul,
-    ol {
-        list-style: none;
-    }
-
-    u {
-        text-decoration: underline;
-
-    }
-
-    a {
-        text-decoration: none;
-        /*去掉下划线*/
-    }
-
+   
    
 
   
@@ -795,8 +688,8 @@
 
     .information-w {
         position: relative;
-        margin-bottom: 20px;
-        min-height: 40px;
+        margin-bottom: 10px;
+        min-height: 20px;
         margin-top: 10px;
         margin-left: 10px;
         
@@ -899,14 +792,7 @@
 
     }
 
-    .applogo {
-        position: relative;
-        width: 46px;
-        height: 46px;
-        float: left;
-        margin-bottom: 20px;
-    }
-
+ 
     .appbox h5 {
         width: 100%;
         text-align: center;
@@ -919,15 +805,15 @@
         float: left;
         margin-left: 12px;
         margin-top: 0px;
+        /* height: 32px; */
 
     }
-
-    .tag-new {
+    tab {
         position: relative;
-        float: left;
+        /* float: left; */
         margin-left: 10px;
-        padding: 0 6px;
-        background: #186d62;
+        padding: 2px 6px;
+        background: var(--color-00);
         color: var(--color-ff);
         font-size: 12px;
         height: 18px;
@@ -936,6 +822,23 @@
         align-self: center;
         align-items: center;
     }
+    tab-new {
+        position: relative;
+        /* float: left; */
+        margin-left: 10px;
+        padding: 2px 6px;
+        background: #00E424;;
+        color: var(--color-ff);
+        font-size: 12px;
+        height: 18px;
+        text-align: center;
+        margin-top: 4px;
+        align-self: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+   
 
     .md {
         position: relative;

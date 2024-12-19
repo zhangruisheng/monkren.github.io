@@ -154,7 +154,7 @@
         margin-top: 8px;
         font-weight: 400;
         font-size: 13px;
-        line-height: 10px;
+        line-height: 16px;
         /* font-family: "coltrane regular demo"; */
         width: auto;
 
@@ -530,13 +530,7 @@
         float: left;
     }
 
-    .page {
-        position: relative;
-        width: 100%;
-        background: var(--color-ff);
-        margin-left: 0%;
-    }
-
+ 
 
 
     .home-class {

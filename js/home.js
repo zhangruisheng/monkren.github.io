@@ -24,12 +24,16 @@ $(function () {
     var oalight = "#fafafa";
     var d5 = "rgba(0, 0, 0, .25)";
     var l5 = "rgba(255, 255, 255, .25)";
+    var white10 = "rgba(255, 255, 255, 0.10)";
+    var black10 = "rgba(0, 0, 0, 0.10)";
 
     if (new Date().getHours() > 18 || new Date().getHours() < 6) {
         document.documentElement.style.setProperty('--color-ff', dark);
         document.documentElement.style.setProperty('--color-00', light);
         document.documentElement.style.setProperty('--color-oa', oadark);
         document.documentElement.style.setProperty('--color-o5', d5);
+        document.documentElement.style.setProperty('--grey-10', white10);
+        
         console.log('夜间模式开启');
     } else {
        
@@ -37,6 +41,7 @@ $(function () {
         document.documentElement.style.setProperty('--color-ff', light);
         document.documentElement.style.setProperty('--color-oa', oalight);
         document.documentElement.style.setProperty('--color-o5', l5);
+        document.documentElement.style.setProperty('--grey-10', black10);
         console.log('夜间模式关闭');
     }
 });
